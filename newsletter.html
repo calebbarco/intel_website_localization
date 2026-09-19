@@ -45,6 +45,17 @@
             <input type="email" class="form-control" id="newsletter-email" aria-describedby="newsletter-help" placeholder="you@example.com" required autofocus />
             <div id="newsletter-help" class="form-text">We will only use your email for Intel newsletter updates.</div>
           </div>
+          <div class="form-floating mb-3">
+            <select class="form-select" id="newsletter-topic" name="newsletter-topic" aria-describedby="newsletter-topic-help" required>
+              <option value="" selected disabled>Choose a newsletter topic</option>
+              <option value="sustainability">Sustainability progress</option>
+              <option value="technology">Technology and innovation</option>
+              <option value="responsible-business">Responsible business</option>
+              <option value="all-topics">All topics</option>
+            </select>
+            <label for="newsletter-topic">Preferred newsletter topic</label>
+            <div id="newsletter-topic-help" class="form-text">Select the topics you would like to receive.</div>
+          </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="newsletter-consent" required />
             <label class="form-check-label" for="newsletter-consent">I agree to receive the Intel newsletter.</label>
