@@ -235,6 +235,43 @@ header p {
   border-color: var(--intel-blue);
 }
 
+.site-footer {
+  background: var(--intel-dark);
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.site-footer-content {
+  align-items: center;
+  display: flex;
+  gap: 1rem 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.site-footer-copyright {
+  margin: 0;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #8fd3ff;
+  text-decoration: underline;
+}
+
 /* Responsive layout */
 @media (max-width: 700px) {
   header {
