@@ -69,6 +69,31 @@ header p {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.site-nav {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(13, 27, 42, 0.12);
+  padding: 0.75rem 1.5rem;
+}
+
+.site-nav-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.site-nav .navbar-brand {
+  color: var(--intel-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav .btn-primary {
+  background-color: var(--intel-blue);
+  border-color: var(--intel-blue);
+}
+
 .timeline {
   display: flex;
   gap: 1.25rem;
@@ -88,7 +113,7 @@ header p {
 }
 
 .timeline-card {
-  flex: 0 0 280px;
+  flex: 0 0 calc((100% - 2.5rem) / 3);
   height: 380px;
   min-height: 300px;
   background: var(--card-bg);
@@ -148,6 +173,34 @@ header p {
   margin: 0 1rem 2rem;
   font-weight: bold;
   color: var(--intel-dark);
+}
+
+.newsletter-section {
+  padding: 2rem 1.5rem 4rem;
+}
+
+.newsletter-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-top: 6px solid var(--intel-blue);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px var(--shadow);
+}
+
+.newsletter-content h2 {
+  margin: 0 0 0.5rem;
+  color: var(--intel-dark);
+}
+
+.newsletter-content p {
+  margin: 0 0 1.5rem;
+}
+
+.newsletter-form .btn-primary {
+  background-color: var(--intel-blue);
+  border-color: var(--intel-blue);
 }
 
 /* Responsive layout */
