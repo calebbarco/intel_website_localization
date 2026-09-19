@@ -80,5 +80,5 @@ Use this link <nav aria-label="breadcrumb">
 
 Add a footer that I can fill out with copyright information and terms of use and contact.
 
-Add relating icons from google icons to the site to improve usuability.
+Add icons from google icons to the site to improve usuability.
 

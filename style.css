@@ -94,6 +94,20 @@ header p {
   border-color: var(--intel-blue);
 }
 
+.material-icons {
+  direction: ltr;
+  font-size: 1.1em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.icon-button,
+.icon-link {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.4rem;
+}
+
 .site-breadcrumb {
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid rgba(0, 113, 197, 0.12);
@@ -124,6 +138,11 @@ header p {
 .site-breadcrumb .breadcrumb-item.active {
   color: var(--intel-dark);
   font-weight: 700;
+}
+
+.breadcrumb-icon {
+  font-size: 1rem;
+  margin-inline-end: 0.25rem;
 }
 
 .timeline {
