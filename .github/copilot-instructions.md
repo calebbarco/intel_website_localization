@@ -57,6 +57,27 @@ Add a menu bar with a link to the newsletter sign up form called "Newsletter". U
   </div>
 </div> to format the menu bar.
 
+Use this link <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav> to add a breadcrumb navigation bar to the webpage.
+
 Add a footer that I can fill out with copyright information and terms of use and contact.
 
 Add relating icons from google icons to the site to improve usuability.
